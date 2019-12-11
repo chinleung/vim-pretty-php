@@ -4,7 +4,7 @@ endif
 
 syntax match phpNiceOperator "||" conceal cchar=∨ contained containedin=phpRegion
 syntax match phpNiceOperator "&&" conceal cchar=∧ contained containedin=phpRegion
-syntax match phpNiceOperator "!" conceal cchar=¬ contained containedin=phpRegion
+syntax match phpNiceOperator "!" conceal cchar=❗️ contained containedin=phpRegion
 syntax match phpNiceOperator "<=" conceal cchar=≤ contained containedin=phpRegion
 syntax match phpNiceOperator ">=" conceal cchar=≥ contained containedin=phpRegion
 syntax match phpNiceOperator "==" conceal cchar=≈ contained containedin=phpRegion
