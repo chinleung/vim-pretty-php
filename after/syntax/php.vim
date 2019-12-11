@@ -15,7 +15,10 @@ syntax match phpNiceOperator "!==" conceal cchar=≢ contained containedin=phpRe
 syntax match phpNiceKeyword "fn" conceal cchar=ƒ contained containedin=phpRegion
 syntax match phpNiceRelation "=>" conceal cchar=⇛ contained containedin=phpRegion
 syntax match phpNiceMemberSelector "\->" conceal cchar=→ contained containedin=phpRegion
+
 syntax keyword phpKeyword function conceal cchar=ƒ
+syntax keyword phpBoolean true conceal cchar=👍
+syntax keyword phpBoolean false conceal cchar=👎
 
 hi link phpNiceOperator phpOperator
 hi link phpNiceStatement phpStatement
