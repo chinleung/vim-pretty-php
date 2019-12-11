@@ -17,6 +17,7 @@ syntax match phpNiceRelation "=>" conceal cchar=⇛ contained containedin=phpReg
 syntax match phpNiceMemberSelector "\->" conceal cchar=→ contained containedin=phpRegion
 
 syntax keyword phpKeyword function conceal cchar=ƒ
+syntax keyword phpNullValue null conceal cchar=ø
 syntax keyword phpBoolean true conceal cchar=👍
 syntax keyword phpBoolean false conceal cchar=👎
 
