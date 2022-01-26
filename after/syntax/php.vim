@@ -20,8 +20,8 @@ syntax keyword phpKeyword function conceal cchar=ƒ
 syntax keyword phpKeyword return conceal cchar=↪
 syntax keyword phpType parent conceal cchar=Ω
 syntax keyword phpNullValue null conceal cchar=ø
-syntax keyword phpBoolean true conceal cchar=👍
-syntax keyword phpBoolean false conceal cchar=👎
+syntax keyword phpBoolean true conceal cchar=👍🏼
+syntax keyword phpBoolean false conceal cchar=👎🏼
 
 hi link phpNiceOperator phpOperator
 hi link phpNiceStatement phpStatement
