@@ -23,6 +23,8 @@ syntax keyword phpNullValue null conceal cchar=ø
 syntax keyword phpBoolean true conceal cchar=👍🏼
 syntax keyword phpBoolean false conceal cchar=👎🏼
 
+syn keyword phpKeyword enum contained
+
 hi link phpNiceOperator phpOperator
 hi link phpNiceStatement phpStatement
 hi link phpNiceKeyword phpKeyword
